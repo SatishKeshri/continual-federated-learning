@@ -9,7 +9,7 @@ from tqdm import tqdm
 import math
 from torchvision import transforms
 from torch.nn.utils import clip_grad_norm_
-from custom_memory_buffers import prop_memory_scheme
+# from custom_memory_buffers import prop_memory_scheme
 from dirichlet_sampler import sampler
 from utils import arg_parser, average_weights
 import gc
